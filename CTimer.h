@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
     int min = atoi(argv[1]);
 
     //runs one iteration for each specified min
-    for(int i = 0; i <= min; i++) {
+    for(int i = 0; i < min; i++) {
         //prints minutes left, added whitespace to write over allready exsisting chars in the terminal
         printf("Minutes left: %d        ", (min - i));
         //flushes the standard out buffer
